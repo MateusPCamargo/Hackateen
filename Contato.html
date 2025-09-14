@@ -1,12 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Verti by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Verti by HTML5 UP</title>
+		<title>Entre em contato Skill up</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -48,34 +43,49 @@
 						<div id="content">
 
 							<!-- Content -->
-								<article>
 
-									<h2>No Sidebar</h2>
+									<section id="contato" style="padding: 40px; background-color: #f9f9f9;">
+									<h2>Fale com a gente</h2>
+									<p>Está com dúvidas sobre os estudos, materiais ou precisa de uma orientação? Envie sua mensagem — estamos aqui para te ajudar a conquistar sua aprovação no ENEM, ETEC e vestibulares!</p>
 
-									<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-									Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-									Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-									consequat etiam lorem ipsum dolor sit amet nullam.</p>
+									<form action="mailto: contato@skillup.com.br" method="post" enctype="text/plain" style="margin-top: 20px;">
+										<label for="nome">Nome:</label><br>
+										<input type="text" id="nome" name="nome" required><br><br>
 
-									<h3>More intriguing information</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-									justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-									ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-									vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-									Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-									rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-									Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-									Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
+										<label for="email">E-mail:</label><br>
+										<input type="email" id="email" name="email" required><br><br>
 
-									<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-									quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-									Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-									fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-									Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-									Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
+										<label for="prova">Qual prova você está se preparando?</label><br>
+										<select id="prova" name="prova">
+										<option value="enem">ENEM</option>
+										<option value="etec">ETEC</option>
+										<option value="vestibular">Outro Vestibular</option>
+										</select><br><br>
 
-								</article>
+										<label for="assunto">Assunto:</label><br>
+										<select id="assunto" name="assunto">
+										<option value="duvida">Dúvida sobre conteúdo</option>
+										<option value="sugestao">Sugestão</option>
+										<option value="tecnico">Problema técnico</option>
+										<option value="orientacao">Orientação de estudos</option>
+										</select><br><br>
 
+										<label for="mensagem">Mensagem:</label><br>
+										<textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+										<button type="submit">Enviar</button>
+									</form>
+
+									<div style="margin-top: 30px;">
+										<h3>Outros canais</h3>
+										<p>Você também pode falar com a gente pelos seguintes canais:</p>
+										<ul>
+										<li>WhatsApp: <a href="https://wa.me/1191234-5678" target="_blank">Clique aqui para conversar</a></li>
+										<li>Email: <a href="mailto:seuemail@exemplo.com">contato@skillup.com.br</a></li>
+										<li>Instagram: <a href="https://instagram.com/seuperfil" target="_blank">@Skillup</a></li>
+										</ul>
+									</div>
+									</section>
 						</div>
 					</div>
 				</div>
